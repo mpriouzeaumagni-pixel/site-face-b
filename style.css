@@ -2,11 +2,15 @@
     margin: 0%
 }
 
-
-.header{
+body{
     display: flex;
     flex-direction: column;
       font-family: "Inter", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -15,9 +19,24 @@
     height: 73px;
     margin: 0%;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+
+}
+
+.gauche{
+    width: 35%;
+    height: 100%;
+
+}
+
+.FACEB{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+
 }
 
 .face{
@@ -53,14 +72,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
+
 
 .gauche2{
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .minititre{
@@ -126,41 +147,180 @@ s
 }
 
 .part3{
+
     width: 100%;
     height: 205px;
     display: flex;
     flex-direction: column; 
     justify-content:space-around ;
+    
 
 
 }
 
 .allfestival{
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    margin-left: 60px;
+    align-items: center;
+    justify-content:center ;
+
+
+
 }
 
 .festival{
-    width: 244px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: flex-start;
+    width: 55%;
     height: 75px;
     font-weight: 800;
     font-size: 53px;
     display: flex;
     white-space: nowrap;
-    justify-content: space-between;
-   
 
-    
 }
 
 .playlist{
-    width: 565px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    width: 55%;
     height: 54px;
     font-weight: 400;
     font-size: 18px;
     white-space: nowrap;
 
 }
+
+.part4 {
+    width: 100%;
+    height: 264px;
+    background: #DDCDFB;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.allpart4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-evenly;
+
+}
+
+.pratique {
+    width: 70%;
+    display: flex;
+    flex-direction: flex-end;
+    font-weight: 800;
+    font-size: 53px;
+
+}
+
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: ;
+
+    
+
+    
+}
+
+.alldate{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+*
+.ou{
+   width: 431px;
+    height: 91px;
+    background: #F4F1EA; 
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 30px;
+
+}
+
+.quand{
+   width: 431px;
+    height: 91px;
+    background: #F4F1EA; 
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.where{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.when{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+ footer{
+    background: #221E29;
+    width: 100%;
+    height: 78px;
+     display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: center;
+ }
+
+.part5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.part52{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .facebwhite{
+    color: white;
+    font-weight: 800;
+    font-size: 27px;
+ }
+
+ .retour{
+    color: white;
+      text-decoration: underline;
+    font-weight: 600;
+    font-size: 15px;
+ }
